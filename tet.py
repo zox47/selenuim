@@ -6,12 +6,9 @@ import time
 import random
 import sys
 
-from selenium.webdriver.chrome.options import Options
 
 import pause
 
-opts = Options()
-opts.add_argument("user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12H321 Safari/600.1.4")
 driver = webdriver.Chrome(executable_path='chromedriver.exe')
 
 
